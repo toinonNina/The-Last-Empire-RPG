@@ -1,200 +1,311 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Zazeal Design</title>
-<link href="Personnages/Bestiaires.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="../../css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
-<link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Zazeal Design</title>
+    <link href="Personnages/Bestiaires.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../../css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
+    <link href="http://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>	
-<script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>
+    <script type="text/javascript" src="../../js/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="../../js/jquery.easing.1.3.js"></script>
 </head>
-<body>
-<div id="menu">
-	<!--<div id="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>-->
-	<ul id="main-menu">
-    	<li><a href="../index.html">A propos</a></li>
-        <li><a href="Personnages.html">Les Personnages</a>
-		<ul class="sous">
-			<li class="deroulant1"><a id="pris" href="Personnages/Pris.html">Personnages Pris</a></li>
-			<li class="deroulant2"><a id="predef" href="Personnages/predefinis.html">Prédéfinis</a></li>
-				</ul>
-		</li>
-        <li><a href="bestiaire.html">Le bestiaire</a></li>
-        <li><a href="Lieux.html">Les lieux</a></li>
-		<li><a href="https://www.facebook.com/TheLastEmpireRPG/">Facebook Page</a></li>
-		<li><a href="https://fr.wikipedia.org/wiki/Liste_de_cr%C3%A9atures_l%C3%A9gendaires">Wikipédia Créatures</a></li>
-		<li><a href="https://www.facebook.com/avatar.wtf/">Aide Avatars</a></li>
-		<li><a href="Accueil.html">Accueil</a></li>
-    </ul>
-</div>
-<div id="container">
-<header>
-		<!--<span class="corner1">&lt;header&gt;</span>
-		<span class="corner2">&lt;/header&gt;</span>-->
-		 <img src="header.png" alt=""/>
-		
-	</header>
-<!--Begin About contexte-->
-    <div id="about">
-    	<h1>Bestiaire</h1>
-       
-        <div class="top-divider"></div>
-        <div class="content">
-            <div class="col">
-        <div id="block central">
-	<!--<span class="corner1">&lt;sect1&gt;</span>
-	<span class="corner2">&lt;/sect1&gt;</span>-->
-		<fieldset action="">
-  <input type="radio" name="menu" id="Les Anges" />
-  <label class="dib" for="Les Anges">
-    <img  src="Bestiaire/ange.png" alt="clique moi 1"/>
-    <h3>Les Anges</h3>
-    <div class="detail"> <p><br><strong>Les Anges</strong><br>Les Anges sont les envoyés des dieux loyaux (notamment d'Arianka) et bons (notamment Shallya) pour aider leurs disciples les plus zélés. Leur mission est de rétablir l'ordre et d'apporter le réconfort quand le chaos se fait trop présent dans des endroits où il ne devrait pas exister.<br><br>Les Anges se divisent en deux catégories : les "Anges de Grâce" et les "Anges de Loi". Les premiers sont envoyés pour soulager les blessures de la chair et de l'âme causées par le Chaos. Les seconds en revanche viennent pour combattre le Chaos et tenter de l'empêcher de se répandre d'avantage.<br><br>L'apparition d'un ange sur Terre demande un grand effort de la part de la divinité, leurs apparitions sont donc très rares et peu nombreux sont ceux qui ont eu la chance d'en rencontrer<br><br></p></div>
-  </label>
-			
-			<input type="radio" name="menu" id=" Les Centaures" />
-  <label class="dib" for=" Les Centaures">
-    <img  src="Bestiaire/centaure.png" alt="clique moi 1"/>
-    <h3> Les Centaures</h3>
-    <div class="detail"> <p><br><strong> Les Centaures</strong><br>Les centaures sont des créatures mystiques qui recèlent bien des secrets. Beaucoup ont cherché à savoir d'où venaient les centaures mais personne n'a jusqu'alors pu le découvrir. Les centaures sont un peuple de guerriers, ils n'utilisent que très rarement la magie, et préfèrent les combats à toute sorte de pouvoir. Ils vivent dans des coins reculés et sont plutôt discrets, ils vivent généralement dans les régions montagneuses ou les collines mais il est tout à fait possible d'en rencontrer dans des forêts. Ils ont quelquefois participé à des guerres en venant aider les humains ou les nains.<br><br></p></div>
-  </label>
-			
-	<input type="radio" name="menu" id="Les Chasseurs" />
-  <label class="dib" for="Les Chasseurs">
-    <img  src="Bestiaire/chasseurs.png" alt="clique moi 1"/>
-    <h3>Les Chasseurs</h3>
-    <div class="detail"> <p><br><strong>Les Chasseurs</strong><br>L'apparition des premiers Chasseurs remonte au XVIIIème siècle et est lié à l'horrible bête du Gévaudan. Créature monstrueuse de type loup qui effraya l'Auvergne entre 1764 et 1767. Face aux multiples attaques de la bête, le roi Louis XV envoya un de ses chasseurs d'élites pour la traquer. La bête aurait été tuée par un chasseur renommé affirmant que sa femme et ses quatre enfants furent les premières proies de la bête. Depuis, une confrérie de chasseurs s’est développée et ne cessent de s’accroître au fil des siècles avec un seul but en tête, venir à bout des créatures surnaturelles.<br><br></p></div>
-  </label>		
-			<input type="radio" name="menu" id=" Les Démons" />
-  <label class="dib" for=" Les Démons">
-    <img  src="Bestiaire/démon.png" alt="clique moi 1"/>
-    <h3> Les Démons</h3>
-    <div class="detail"> <p><br><strong> Les Démons</strong><br>Un Démon est une âme humaine torturée et corrompue par le mal en Enfer. Les démons sont des entités capables de posséder sans autorisation des êtres humains.<br><br>Leurs véritables formes se présentent sous la forme d'une épaisse fumée noire lorsqu'ils sont hors d'un hôte. Ils possèdent un pouvoir de télékinésie et une force accrue. Ils étaient autrefois humains mais sont devenus des démons après des siècles de torture en Enfer. On peut les exorciser avec une formule prononcée en latin et on sait que seuls le Colt, les lames d'anges et la dague anti-démon peuvent les tuer.<br><br>Les démons ont en plus la capacité de voler à l’aide de leurs ailes noires, de maîtriser le feu et de passer des pactes démoniaques avec quiconque en a le courage.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Divinités" />
-  <label class="dib" for="Les Divinités">
-    <img  src="Bestiaire/divinité.png" alt="clique moi 1"/>
-    <h3>Les Divinités</h3>
-    <div class="detail"> <p><br><strong>Les Divinités</strong><br>ULes dieux et déesses sont présents dans toutes les différentes mythologies et mythes dont ils sont les tout puissants dans ce qu'ils contrôlent et influencent.<br><br>Chaque civilisation a son ou ses dieux qui influencent le sort de celle-ci. Pour plaire aux dieux ou à une déesse, et en obtenir la faveur pour les récoltes, la pluie et la santé, les civilisations anciennes avaient souvent des rituels. Les prières, les sacrifices et offrandes servaient à apaiser la colère des dieux et ainsi améliorer leur sort.<br><br>Un dieu est habituellement tout puissant et immortel, car il n'est pas un homme. Il décide si il aide ou nuit au héros d'un récit selon l'attitude de ce héros envers lui, ou tout simplement par défi d'un autre dieu. Le sort de la civilisation qui le vénère est entre ses mains, car il peut décider de ne pas amener la pluie, la fertilité et bien d'autres aspects de leur vies.<br><br>Chaque divinité a ses attributs, ses capacités bien propre ainsi que la population qu'il protège. Nordique, Egyptien, Grec, Shintoïste ou autre, tous sont les bienvenues dans ce bas monde.<br><br></p></div>
-  </label>
-				<input type="radio" name="menu" id="Les Djinns" />
-  <label class="dib" for="Les Djinns">
-    <img  src="Bestiaire/djinn.png" alt="clique moi 1"/>
-    <h3>Les Djinns</h3>
-    <div class="detail"> <p><br><strong>Les Djinns</strong><br>Les Djinns, aussi appelés Jinn et parfois aussi nommés Genies, sont une des rares ermites qui logent dans des grottes surnaturelles et qui ont le pouvoir de produire des hallucinations puissantes à l’intérieur de l’esprit de l’homme. Un Djinn est une créature qui hypnotise ses victimes et les plonge dans un coma pour se nourrir de leur sang. Dans leur sommeil, les victimes vivent dans une sorte de réalité alternative où leurs rêves les plus chers deviennent vrais.<br><br>Les Djinns vivent dans des endroits sombres et se reconnaissent à leur peau couverte de tatouages. Ils vivent du sang de leurs victimes. Il n'y a pas de manière particulière de les tuer : les poignarder avec un couteau en argent trempée dans le sang de brebis<br><br></p></div>
-  </label>
-				<input type="radio" name="menu" id="Les dragons" />
-  <label class="dib" for="Les dragons">
-    <img  src="Bestiaire/drzgon.png" alt="clique moi 1"/>
-    <h3>Les dragons</h3>
-    <div class="detail"> <p><br><strong>Les dragons</strong><br>Le dragon est une créature légendaire représenté comme une sorte de gigantesque reptile. les ailes déployaient et pattes armé de griffes parce son apparence reptilienne le dragon est intimement lié a la terre cependant il se détache du monde terrestre par sa capacité a voler symbole de vie et de puissance ce sont aussi des protecteur .<br><br>Selon leurs origines ils peuvent manipuler le feu ou la glace, certaine espèce peuvent avoir une forme humaine et avoir le contrôle de l’élément auquel ils sont liée.<br><br></p></div>
-  </label>
-			
-			<input type="radio" name="menu" id="Les Echanteresses" />
-  <label class="dib" for="Les Echanteresses">
-    <img  src="Bestiaire/enchanteresse.png" alt="clique moi 1"/>
-    <h3>Les Echanteresses</h3>
-    <div class="detail"> <p><br><strong>Les Echanteresses</strong><br>Elle possède le don de transmutation (mutation dans une autre forme) qu'elle utilise parfois pour transformer ses ennemis en animaux. Elle est aussi douée de téléportation, seule ou avec des passagers, et peut téléporter des objets1.<br><br>Elle possède la capacité de détourner les attaques magiques, en formant notamment des boucliers. L’Enchanteresse est également dotée de pouvoirs télékinésiques et télépathiques, ce qui lui permet de manipuler mentalement les gens et d’influencer leurs décisions. Elle peut également s’envoler.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Fantömes" />
-  <label class="dib" for="Les Fantömes">
-    <img  src="Bestiaire/fantome.png" alt="clique moi 1"/>
-    <h3>Les Fantömes</h3>
-    <div class="detail"> <p><br><strong>Les Fantömes</strong><br>Un Fantôme est l'âme et l'esprit d'un animal ou d'une personne décédée, qui peuvent apparaître dans une manifestation corporelle visible aux vivants. Les fantômes ne semblent pas mort. Chaque fois qu'ils apparaissent, ils sont généralement considérés vêtu de la même tenue qu'ils portaient avant leur décès. <br><br>Cependant, il possible que les fantômes peuvent changer d'apparence et de vêtement quand ils se manifestent. Les fantômes ont la capacité de contrôler et de manipuler le corps, l’esprit et l’âme d’un vivant mais ils ont aussi le pouvoir de se téléporter et d’utiliser la télékinésie.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Goules" />
-  <label class="dib" for="Les Goules">
-    <img  src="Bestiaire/goule.png" alt="clique moi 1"/>
-    <h3>Les Goules</h3>
-    <div class="detail"> <p><br><strong>Les Goules</strong><br>Les goules sont une espèce dominant la chaîne alimentaire. Elles possèdent une apparence humanoïde et sont en tout point similaires aux êtres humains. Seulement, elles se nourrissent de chair humaine et dépassent largement les capacités physiques des humains. Cependant, il arrive qu'un humain et une goule donnent naissance à une Goule à l'œil écarlate. Un organe appartenant à une goule peut aussi être transplanté dans le corps d'un humain, qui deviendra une goule à l'œil écarlate.
-A cause de leurs besoins alimentaires, et pour protéger l'humanité, elles sont exterminées par le CCG.<br><br>Les goules possèdent un organe que les humains n'ont pas: la poche RC. Cette poche stocke les cellules RC (cellules qui parcourent tout le corps comme le sang). Ainsi, les goules ont un taux de cellules RC bien supérieure aux humains. À leur guise, les goules peuvent libérer les cellules RC de leur corps, et une fois à l'air libre, elles se déploient et deviennent très résistantes (autant que l'émail des dents). De plus, elles prennent une certaine forme propre à la goule (telle que des tentacules, ailes, armure, etc...). On appelle cette matérialisation le «Kagune». Ce système de Kagune permet aux goules de se défendre et de survivre. Lorsque leur Kagune s'active les yeux des goules deviennent rouges.La libération des cellules RC a une autre fonction : elle permet aussi à une goule de régénérer ses blessures sans laisser de cicatrices.<br><br></p></div>
-  </label>
-			
-			<input type="radio" name="menu" id="Les Loups-Garous" />
-  <label class="dib" for="Les Loups-Garous">
-    <img  src="Bestiaire/loup garou.png" alt="clique moi 1"/>
-    <h3>Les Loups-Garous</h3>
-    <div class="detail"> <p><br><strong>Les Loups-Garous</strong><br>Les Loups-Garous font parti d’une race surnaturelle qui est apparue au début du sixième siècle soit près de cinq siècles avant les premiers vampires. Il s’agit d’une malédiction lancée par la sorcière Inadu afin de punir les personnes qui l’ont tuée. De cette malédiction est ainsi née les Sept lignées de Loups-Garous.<br><br>Créature terrifiante qui a chaque pleine lune se transforme en loup d’une très grande puissance, les loups-garous ou aussi communément connus sous le nom de lycanthrope sont des humains dotés d’une très grande puissance et de toutes les caractéristiques attribuées à cet animal : puissance musculaire, agilité, ruse et férocité... Il chasse et attaque les passants et même sa propre famille car il n'a plus aucun contrôle sur son corps. Il n'a aucun souvenir des événements de la pleine lune, et doit s'en rendre compte par lui-même.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les phénix" />
-  <label class="dib" for="Les phénix">
-    <img  src="Bestiaire/phénix.png" alt="clique moi 1"/>
-    <h3>Les phénix</h3>
-    <div class="detail"> <p><br><strong>Les Loups-Garous</strong><br>Le phénix est un oiseau légendaire doué d'une grande longévité et caractérisé par son pouvoir de renaître après s'être consumé dans les flammes. Il est considéré comme un élémentaire de feu au même titre que la salamandre. Si la salamandre est le côté négatif du feu, le phénix lui est son opposé. Il est le côté positif et chaleureux du feu. Il peut manipuler les flammes comme il le souhaite ne les craignant pas. <br><br>Il peut soigner chacune de ses blessures en utilisant ses flammes. Il peut également s'en servir pour soigner les autres créatures de feu. Il ne peut vivre plus de cinq cents ans.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Sirènes" />
-  <label class="dib" for="Les Sirènes">
-    <img  src="Bestiaire/Sirene.png" alt="clique moi 1"/>
-    <h3>Les Sirènes</h3>
-    <div class="detail"> <p><br><strong>Les Sirènes</strong><br>Selon la légende , la sirène est un être fabuleux, mi-poisson, mi-femme, qui vit dans les mers. Contrairement à ce que l'on pourrait penser, ce monstre marin n'avait rien d'effrayant ou de repoussant, imaginer plutôt une femme au visage et au torse d'une grande beauté, dont le reste du corps, fuselé et écailleux, se terminait comme celui d'un grand poisson. Néanmoins, parce qu'elle restait le plus souvent au bord des rivages, à demi-immergée, on ne retenait d'elle que l'apparence humaine.<br><br>Elle possédait de plus une voix extraordinairement belle à laquelle nul ne pouvait résister. Cependant elles séduisaient les navigateurs qui, attirés par les accents magiques de leur chant, de leurs lyres et flûtes perdaient le sens de l’orientation, fracassant leurs bateaux sur les récifs où ils étaient dévorés par ces enchanteresses.
-<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Sorciers" />
-  <label class="dib" for="Les Sorciers">
-    <img  src="Bestiaire/sorcière.png" alt="clique moi 1"/>
-    <h3>Les Sorciers</h3>
-    <div class="detail"> <p><br><strong>Les Sorciers</strong><br>Les Sorcières ou Sorciers sont les deuxièmes êtres surnaturels les plus anciens ayant existé. Les traces la plus ancienne de leur existence sont des chaînes enchantées vieilles de 3000 ans provenant d’Égypte. Ce sont des humains ayant la faculté d'influencer leur environnement en faisait appel à leurs pouvoirs magiques.<br><br> les sorcières sont très fidèles à leur famille et sont liées par un code de loyauté. Les sorcières et les télépathes sont liées entre eux étant donné qu'ils possèdent des pouvoirs télépathiques.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Valkyries" />
-  <label class="dib" for="Les Valkyries">
-    <img  src="Bestiaire/valkyrie.png" alt="clique moi 1"/>
-    <h3>Les Valkyries</h3>
-    <div class="detail"> <p><br><strong>Les Valkyries</strong><br>Les Valkyries, dans la mythologie nordique, sont des vierges guerrières, des divinités mineures dites dises qui servaient Odin, maître des dieux. Les Valkyries, revêtues d’une armure, volaient, dirigeaient les batailles, distribuaient la mort parmi les guerriers et emmenaient l’âme des héros au Valhalla, le grand palais d’Odin, afin qu'ils deviennent des Einherjar. Ces héroïnes sont destinées à se battre aux côtés d'Odin à la venue du Ragnarok.<br><br>race extra-dimensionnelle vieillissant très lentement et ne craignant pas les maladies terrestres. Elle possède une force et une endurance surhumaines. Ses tissus sont si denses que sa peau résiste aux balles. Très bonne guerrière, elle emploie une épée enchantée incassable nommée Dragonfang, qu'elle peut faire apparaître à volonté. Autrefois, elle utilisait aussi une lance mystique.En tant que Valkyrie, elle pouvait sentir si la mort allait frapper près d'elle .<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Vampires" />
-  <label class="dib" for="Les Vampires">
-    <img  src="Bestiaire/vampire.png" alt="clique moi 1"/>
-    <h3>Les Vampires</h3>
-    <div class="detail"> <p><br><strong>Les Vampires</strong><br>Les Vampires ont une apparence humaine mais quand ils se préparent à chasser, et donc à se nourrir, des veines noires apparaissent sous les yeux du vampire et le sclérotique de l’œil (partie blanche autour de l'iris) devient rouge, ils se transforment en véritables prédateurs et sont plus vicieux. Des crocs pointus et d'une longueur inhabituelle (5 - 6 centimètres), les démarquant ainsi des humains, sont sur leur dentition. Les vampires ont leurs sens amplifiés, comme l'odorat : le vampire peut sentir du sang à des kilomètres de sa position géographique; il y a aussi l'ouïe : ils peuvent entendre ou écouter des conversations ou autres sons à plusieurs mètres d'eux (et même plus) beaucoup plus loin qu'un homme ne pourrait réussir à entendre; leur vitesse aussi s'accroît considérablement.<br><br>Et enfin leurs sentiments qui se ressentent avec plus d'intensité, que ce soit la colère, l'amour, la tristesse, la joie. les trais de leur personnalité sont également amplifiés. Il possèdent également une vitesse surhumaine, une force incroyable, le don d’hypnose et de contrôler certains rêves et tout comme les loups-garous, ils peuvent se soigner rapidement de toutes blessures.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Wendigos" />
-  <label class="dib" for="Les Wendigos">
-    <img  src="Bestiaire/Wendigo.png" alt="clique moi 1"/>
-    <h3>Les Wendigos</h3>
-    <div class="detail"> <p><br><strong>Les Wendigos</strong><br>Les Wendigos sont âgés d'une centaine d'années, ce sont des êtres humains qui ont été contraints de manger de la chair humaine pour survivre à un hiver rigoureux, en général, il s'agit d'un membre de leur propre tribu qu'ils dévorent.<br><br>Le terme " Wendigo " provient de la mythologie des Amérindiens et signifie "Le Démon qui dévore". Le fait de goûter de la chair humaine transforme ces hommes en monstre qui deviennent extrêmement rapides et intelligents. Ils peuvent imiter la voix humaine pour attirer leur proie. Les Wendigos acquièrent des capacités hors normes après s’être nourri et n'ont aucun répit dans leur traque de chaire humaine, ils sont toujours affamés. Ils peuvent hiberner quand bon leur semble (en général durant une vingtaine d'années) et peuvent se constituer des gardes-mangers encore en vie.<br><br></p></div>
-  </label>
-			<input type="radio" name="menu" id="Les Selkies" />
-  <label class="dib" for="Les Selkies">
-    <img  src="Bestiaire/Selkie.png" alt="clique moi 1"/>
-    <h3>Les Selkies</h3>
-    <div class="detail"> <p><br><strong>Les Selkies</strong><br>Les selkies sont des créatures imaginaires issues principalement du folklore des Shetland. Elles y sont décrites comme de superbes jeunes filles (ou assez exceptionnellement comme de beaux jeunes hommes) qui revêtent une peau de phoque, dans le but de se changer en cet animal marin et de plonger dans la mer.<br><br>Une fois sortie de l'eau, ce qu'elle fait toujours la nuit, parfois le jour en de rares occasions et le plus souvent durant celle de la Saint-Jean, la selkie quitte sa peau et danse à la lueur de la Lune.Si un homme découvre alors son accessoire ensorcelé et le dérobe, la selkie devra lui obéir tant qu'elle ne l'aura pas retrouvé. Dans cette situation, il arrive parfois que la femme-phoque et l'homme qui la tient sous sa coupe finissent par s'attacher l'un à l'autre, se marient et aient des enfants, mais si la peau n'est pas détruite par le feu et que la selkie la retrouve, elle plongera dans les profondeurs de l'océan pour ne jamais revenir, laissant mari et enfants, tout comme certaines sortes de sirènes. Elles sont parfois chargées de protéger les sirènes qui ont 16 ans, l'âge normal pour la transformation. Elles sont chargées de leur apprendre la vie sous-marine et de les montrer à leurs clans.<br><br></p></div>
-  </label>
-			</fieldset>
-</div>
-        </div>    
-        <div class="bottom-divider"></div>
-    </div>
-<!--End Experience administration-->
-</div>
 
-	<footer>
-	<!--<span class="corner1">&lt;footer&gt;</span>
+<body>
+    <div id="menu">
+        <!--<div id="logo"><a href="#"><img src="images/logo.png" alt=""></a></div>-->
+        <ul id="main-menu">
+
+            <li><a href="Personnages.html">Les Personnages</a>
+                <ul class="sous">
+                    <li class="deroulant1"><a id="pris" href="Personnages/Pris.html">Personnages Pris</a></li>
+                    <li class="deroulant2"><a id="predef" href="Personnages/predefinis.html">Prédéfinis</a></li>
+                </ul>
+            </li>
+            <li><a href="bestiaire.html">Le bestiaire</a></li>
+            <li><a href="Lieux.html">Les lieux</a></li>
+            <li><a href="https://www.facebook.com/TheLastEmpireRPG/">Facebook Page</a></li>
+            <li><a href="https://fr.wikipedia.org/wiki/Liste_de_cr%C3%A9atures_l%C3%A9gendaires">Wikipédia Créatures</a></li>
+            <li><a href="https://www.facebook.com/avatar.wtf/">Aide Avatars</a></li>
+            <li><a href="./index.html">Accueil</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <header>
+            <!--<span class="corner1">&lt;header&gt;</span>
+		<span class="corner2">&lt;/header&gt;</span>-->
+            <img src="header.png" alt="" />
+
+        </header>
+        <!--Begin About contexte-->
+        <div id="about">
+            <h1>Bestiaire</h1>
+
+            <div class="top-divider"></div>
+            <div class="content">
+                <div class="col">
+                    <div id="block central">
+                        <!--<span class="corner1">&lt;sect1&gt;</span>
+	<span class="corner2">&lt;/sect1&gt;</span>-->
+                        <fieldset action="">
+                            <input type="radio" name="menu" id="Les Anges" />
+                            <label class="dib" for="Les Anges">
+                <img src="Bestiaire/ange.png" alt="clique moi 1" />
+                <h3>Les Anges</h3>
+                <div class="detail">
+                  <p><br><strong>Les Anges</strong><br>Les Anges sont les envoyés des dieux loyaux (notamment d'Arianka) et bons (notamment Shallya) pour aider leurs disciples les plus zélés. Leur mission est de rétablir
+                    l'ordre et d'apporter le réconfort quand le chaos se fait trop présent dans des endroits où il ne devrait pas exister.<br><br>Les Anges se divisent en deux catégories : les "Anges de Grâce" et les
+                    "Anges de Loi". Les premiers sont envoyés pour soulager les blessures de la chair et de l'âme causées par le Chaos. Les seconds en revanche viennent pour combattre le Chaos et tenter de l'empêcher de
+                    se répandre d'avantage.<br><br>L'apparition d'un ange sur Terre demande un grand effort de la part de la divinité, leurs apparitions sont donc très rares et peu nombreux sont ceux qui ont eu la chance
+                    d'en rencontrer<br><br></p>
+                </div>
+              </label>
+
+                            <input type="radio" name="menu" id=" Les Centaures" />
+                            <label class="dib" for=" Les Centaures">
+                <img src="Bestiaire/centaure.png" alt="clique moi 1" />
+                <h3> Les Centaures</h3>
+                <div class="detail">
+                  <p><br><strong> Les Centaures</strong><br>Les centaures sont des créatures mystiques qui recèlent bien des secrets. Beaucoup ont cherché à savoir d'où venaient les centaures mais personne n'a
+                    jusqu'alors pu le découvrir. Les centaures sont un peuple de guerriers, ils n'utilisent que très rarement la magie, et préfèrent les combats à toute sorte de pouvoir. Ils vivent dans des coins reculés
+                    et sont plutôt discrets, ils vivent généralement dans les régions montagneuses ou les collines mais il est tout à fait possible d'en rencontrer dans des forêts. Ils ont quelquefois participé à des
+                    guerres en venant aider les humains ou les nains.<br><br></p>
+                </div>
+              </label>
+
+                            <input type="radio" name="menu" id="Les Chasseurs" />
+                            <label class="dib" for="Les Chasseurs">
+                <img src="Bestiaire/chasseurs.png" alt="clique moi 1" />
+                <h3>Les Chasseurs</h3>
+                <div class="detail">
+                  <p><br><strong>Les Chasseurs</strong><br>L'apparition des premiers Chasseurs remonte au XVIIIème siècle et est lié à l'horrible bête du Gévaudan. Créature monstrueuse de type loup qui effraya l'Auvergne
+                    entre 1764 et 1767. Face aux multiples attaques de la bête, le roi Louis XV envoya un de ses chasseurs d'élites pour la traquer. La bête aurait été tuée par un chasseur renommé affirmant que sa femme
+                    et ses quatre enfants furent les premières proies de la bête. Depuis, une confrérie de chasseurs s’est développée et ne cessent de s’accroître au fil des siècles avec un seul but en tête, venir à bout
+                    des créatures surnaturelles.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id=" Les Démons" />
+                            <label class="dib" for=" Les Démons">
+                <img src="Bestiaire/démon.png" alt="clique moi 1" />
+                <h3> Les Démons</h3>
+                <div class="detail">
+                  <p><br><strong> Les Démons</strong><br>Un Démon est une âme humaine torturée et corrompue par le mal en Enfer. Les démons sont des entités capables de posséder sans autorisation des êtres
+                    humains.<br><br>Leurs véritables formes se présentent sous la forme d'une épaisse fumée noire lorsqu'ils sont hors d'un hôte. Ils possèdent un pouvoir de télékinésie et une force accrue. Ils étaient
+                    autrefois humains mais sont devenus des démons après des siècles de torture en Enfer. On peut les exorciser avec une formule prononcée en latin et on sait que seuls le Colt, les lames d'anges et la
+                    dague anti-démon peuvent les tuer.<br><br>Les démons ont en plus la capacité de voler à l’aide de leurs ailes noires, de maîtriser le feu et de passer des pactes démoniaques avec quiconque en a le
+                    courage.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Divinités" />
+                            <label class="dib" for="Les Divinités">
+                <img src="Bestiaire/divinité.png" alt="clique moi 1" />
+                <h3>Les Divinités</h3>
+                <div class="detail">
+                  <p><br><strong>Les Divinités</strong><br>ULes dieux et déesses sont présents dans toutes les différentes mythologies et mythes dont ils sont les tout puissants dans ce qu'ils contrôlent et
+                    influencent.<br><br>Chaque civilisation a son ou ses dieux qui influencent le sort de celle-ci. Pour plaire aux dieux ou à une déesse, et en obtenir la faveur pour les récoltes, la pluie et la santé,
+                    les civilisations anciennes avaient souvent des rituels. Les prières, les sacrifices et offrandes servaient à apaiser la colère des dieux et ainsi améliorer leur sort.<br><br>Un dieu est
+                    habituellement tout puissant et immortel, car il n'est pas un homme. Il décide si il aide ou nuit au héros d'un récit selon l'attitude de ce héros envers lui, ou tout simplement par défi d'un autre
+                    dieu. Le sort de la civilisation qui le vénère est entre ses mains, car il peut décider de ne pas amener la pluie, la fertilité et bien d'autres aspects de leur vies.<br><br>Chaque divinité a ses
+                    attributs, ses capacités bien propre ainsi que la population qu'il protège. Nordique, Egyptien, Grec, Shintoïste ou autre, tous sont les bienvenues dans ce bas monde.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Djinns" />
+                            <label class="dib" for="Les Djinns">
+                <img src="Bestiaire/djinn.png" alt="clique moi 1" />
+                <h3>Les Djinns</h3>
+                <div class="detail">
+                  <p><br><strong>Les Djinns</strong><br>Les Djinns, aussi appelés Jinn et parfois aussi nommés Genies, sont une des rares ermites qui logent dans des grottes surnaturelles et qui ont le pouvoir de
+                    produire des hallucinations puissantes à l’intérieur de l’esprit de l’homme. Un Djinn est une créature qui hypnotise ses victimes et les plonge dans un coma pour se nourrir de leur sang. Dans leur
+                    sommeil, les victimes vivent dans une sorte de réalité alternative où leurs rêves les plus chers deviennent vrais.<br><br>Les Djinns vivent dans des endroits sombres et se reconnaissent à leur peau
+                    couverte de tatouages. Ils vivent du sang de leurs victimes. Il n'y a pas de manière particulière de les tuer : les poignarder avec un couteau en argent trempée dans le sang de brebis<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les dragons" />
+                            <label class="dib" for="Les dragons">
+                <img src="Bestiaire/drzgon.png" alt="clique moi 1" />
+                <h3>Les dragons</h3>
+                <div class="detail">
+                  <p><br><strong>Les dragons</strong><br>Le dragon est une créature légendaire représenté comme une sorte de gigantesque reptile. les ailes déployaient et pattes armé de griffes parce son apparence
+                    reptilienne le dragon est intimement lié a la terre cependant il se détache du monde terrestre par sa capacité a voler symbole de vie et de puissance ce sont aussi des protecteur .<br><br>Selon leurs
+                    origines ils peuvent manipuler le feu ou la glace, certaine espèce peuvent avoir une forme humaine et avoir le contrôle de l’élément auquel ils sont liée.<br><br></p>
+                </div>
+              </label>
+
+                            <input type="radio" name="menu" id="Les Echanteresses" />
+                            <label class="dib" for="Les Echanteresses">
+                <img src="Bestiaire/enchanteresse.png" alt="clique moi 1" />
+                <h3>Les Echanteresses</h3>
+                <div class="detail">
+                  <p><br><strong>Les Echanteresses</strong><br>Elle possède le don de transmutation (mutation dans une autre forme) qu'elle utilise parfois pour transformer ses ennemis en animaux. Elle est aussi douée de
+                    téléportation, seule ou avec des passagers, et peut téléporter des objets1.<br><br>Elle possède la capacité de détourner les attaques magiques, en formant notamment des boucliers. L’Enchanteresse est
+                    également dotée de pouvoirs télékinésiques et télépathiques, ce qui lui permet de manipuler mentalement les gens et d’influencer leurs décisions. Elle peut également s’envoler.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Fantömes" />
+                            <label class="dib" for="Les Fantömes">
+                <img src="Bestiaire/fantome.png" alt="clique moi 1" />
+                <h3>Les Fantömes</h3>
+                <div class="detail">
+                  <p><br><strong>Les Fantömes</strong><br>Un Fantôme est l'âme et l'esprit d'un animal ou d'une personne décédée, qui peuvent apparaître dans une manifestation corporelle visible aux vivants. Les fantômes
+                    ne semblent pas mort. Chaque fois qu'ils apparaissent, ils sont généralement considérés vêtu de la même tenue qu'ils portaient avant leur décès. <br><br>Cependant, il possible que les fantômes peuvent
+                    changer d'apparence et de vêtement quand ils se manifestent. Les fantômes ont la capacité de contrôler et de manipuler le corps, l’esprit et l’âme d’un vivant mais ils ont aussi le pouvoir de se
+                    téléporter et d’utiliser la télékinésie.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Goules" />
+                            <label class="dib" for="Les Goules">
+                <img src="Bestiaire/goule.png" alt="clique moi 1" />
+                <h3>Les Goules</h3>
+                <div class="detail">
+                  <p><br><strong>Les Goules</strong><br>Les goules sont une espèce dominant la chaîne alimentaire. Elles possèdent une apparence humanoïde et sont en tout point similaires aux êtres humains. Seulement,
+                    elles se nourrissent de chair humaine et dépassent largement les capacités physiques des humains. Cependant, il arrive qu'un humain et une goule donnent naissance à une Goule à l'œil écarlate. Un
+                    organe appartenant à une goule peut aussi être transplanté dans le corps d'un humain, qui deviendra une goule à l'œil écarlate.
+                    A cause de leurs besoins alimentaires, et pour protéger l'humanité, elles sont exterminées par le CCG.<br><br>Les goules possèdent un organe que les humains n'ont pas: la poche RC. Cette poche stocke
+                    les cellules RC (cellules qui parcourent tout le corps comme le sang). Ainsi, les goules ont un taux de cellules RC bien supérieure aux humains. À leur guise, les goules peuvent libérer les cellules
+                    RC de leur corps, et une fois à l'air libre, elles se déploient et deviennent très résistantes (autant que l'émail des dents). De plus, elles prennent une certaine forme propre à la goule (telle que
+                    des tentacules, ailes, armure, etc...). On appelle cette matérialisation le «Kagune». Ce système de Kagune permet aux goules de se défendre et de survivre. Lorsque leur Kagune s'active les yeux des
+                    goules deviennent rouges.La libération des cellules RC a une autre fonction : elle permet aussi à une goule de régénérer ses blessures sans laisser de cicatrices.<br><br></p>
+                </div>
+              </label>
+
+                            <input type="radio" name="menu" id="Les Loups-Garous" />
+                            <label class="dib" for="Les Loups-Garous">
+                <img src="Bestiaire/loup garou.png" alt="clique moi 1" />
+                <h3>Les Loups-Garous</h3>
+                <div class="detail">
+                  <p><br><strong>Les Loups-Garous</strong><br>Les Loups-Garous font parti d’une race surnaturelle qui est apparue au début du sixième siècle soit près de cinq siècles avant les premiers vampires. Il
+                    s’agit d’une malédiction lancée par la sorcière Inadu afin de punir les personnes qui l’ont tuée. De cette malédiction est ainsi née les Sept lignées de Loups-Garous.<br><br>Créature terrifiante qui a
+                    chaque pleine lune se transforme en loup d’une très grande puissance, les loups-garous ou aussi communément connus sous le nom de lycanthrope sont des humains dotés d’une très grande puissance et de
+                    toutes les caractéristiques attribuées à cet animal : puissance musculaire, agilité, ruse et férocité... Il chasse et attaque les passants et même sa propre famille car il n'a plus aucun contrôle sur
+                    son corps. Il n'a aucun souvenir des événements de la pleine lune, et doit s'en rendre compte par lui-même.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les phénix" />
+                            <label class="dib" for="Les phénix">
+                <img src="Bestiaire/phénix.png" alt="clique moi 1" />
+                <h3>Les phénix</h3>
+                <div class="detail">
+                  <p><br><strong>Les Loups-Garous</strong><br>Le phénix est un oiseau légendaire doué d'une grande longévité et caractérisé par son pouvoir de renaître après s'être consumé dans les flammes. Il est
+                    considéré comme un élémentaire de feu au même titre que la salamandre. Si la salamandre est le côté négatif du feu, le phénix lui est son opposé. Il est le côté positif et chaleureux du feu. Il peut
+                    manipuler les flammes comme il le souhaite ne les craignant pas. <br><br>Il peut soigner chacune de ses blessures en utilisant ses flammes. Il peut également s'en servir pour soigner les autres
+                    créatures de feu. Il ne peut vivre plus de cinq cents ans.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Sirènes" />
+                            <label class="dib" for="Les Sirènes">
+                <img src="Bestiaire/Sirene.png" alt="clique moi 1" />
+                <h3>Les Sirènes</h3>
+                <div class="detail">
+                  <p><br><strong>Les Sirènes</strong><br>Selon la légende , la sirène est un être fabuleux, mi-poisson, mi-femme, qui vit dans les mers. Contrairement à ce que l'on pourrait penser, ce monstre marin
+                    n'avait rien d'effrayant ou de repoussant, imaginer plutôt une femme au visage et au torse d'une grande beauté, dont le reste du corps, fuselé et écailleux, se terminait comme celui d'un grand
+                    poisson. Néanmoins, parce qu'elle restait le plus souvent au bord des rivages, à demi-immergée, on ne retenait d'elle que l'apparence humaine.<br><br>Elle possédait de plus une voix extraordinairement
+                    belle à laquelle nul ne pouvait résister. Cependant elles séduisaient les navigateurs qui, attirés par les accents magiques de leur chant, de leurs lyres et flûtes perdaient le sens de l’orientation,
+                    fracassant leurs bateaux sur les récifs où ils étaient dévorés par ces enchanteresses.
+                    <br><br>
+                  </p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Sorciers" />
+                            <label class="dib" for="Les Sorciers">
+                <img src="Bestiaire/sorcière.png" alt="clique moi 1" />
+                <h3>Les Sorciers</h3>
+                <div class="detail">
+                  <p><br><strong>Les Sorciers</strong><br>Les Sorcières ou Sorciers sont les deuxièmes êtres surnaturels les plus anciens ayant existé. Les traces la plus ancienne de leur existence sont des chaînes
+                    enchantées vieilles de 3000 ans provenant d’Égypte. Ce sont des humains ayant la faculté d'influencer leur environnement en faisait appel à leurs pouvoirs magiques.<br><br> les sorcières sont très
+                    fidèles à leur famille et sont liées par un code de loyauté. Les sorcières et les télépathes sont liées entre eux étant donné qu'ils possèdent des pouvoirs télépathiques.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Valkyries" />
+                            <label class="dib" for="Les Valkyries">
+                <img src="Bestiaire/valkyrie.png" alt="clique moi 1" />
+                <h3>Les Valkyries</h3>
+                <div class="detail">
+                  <p><br><strong>Les Valkyries</strong><br>Les Valkyries, dans la mythologie nordique, sont des vierges guerrières, des divinités mineures dites dises qui servaient Odin, maître des dieux. Les Valkyries,
+                    revêtues d’une armure, volaient, dirigeaient les batailles, distribuaient la mort parmi les guerriers et emmenaient l’âme des héros au Valhalla, le grand palais d’Odin, afin qu'ils deviennent des
+                    Einherjar. Ces héroïnes sont destinées à se battre aux côtés d'Odin à la venue du Ragnarok.<br><br>race extra-dimensionnelle vieillissant très lentement et ne craignant pas les maladies terrestres.
+                    Elle possède une force et une endurance surhumaines. Ses tissus sont si denses que sa peau résiste aux balles. Très bonne guerrière, elle emploie une épée enchantée incassable nommée Dragonfang,
+                    qu'elle peut faire apparaître à volonté. Autrefois, elle utilisait aussi une lance mystique.En tant que Valkyrie, elle pouvait sentir si la mort allait frapper près d'elle .<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Vampires" />
+                            <label class="dib" for="Les Vampires">
+                <img src="Bestiaire/vampire.png" alt="clique moi 1" />
+                <h3>Les Vampires</h3>
+                <div class="detail">
+                  <p><br><strong>Les Vampires</strong><br>Les Vampires ont une apparence humaine mais quand ils se préparent à chasser, et donc à se nourrir, des veines noires apparaissent sous les yeux du vampire et le
+                    sclérotique de l’œil (partie blanche autour de l'iris) devient rouge, ils se transforment en véritables prédateurs et sont plus vicieux. Des crocs pointus et d'une longueur inhabituelle (5 - 6
+                    centimètres), les démarquant ainsi des humains, sont sur leur dentition. Les vampires ont leurs sens amplifiés, comme l'odorat : le vampire peut sentir du sang à des kilomètres de sa position
+                    géographique; il y a aussi l'ouïe : ils peuvent entendre ou écouter des conversations ou autres sons à plusieurs mètres d'eux (et même plus) beaucoup plus loin qu'un homme ne pourrait réussir à
+                    entendre; leur vitesse aussi s'accroît considérablement.<br><br>Et enfin leurs sentiments qui se ressentent avec plus d'intensité, que ce soit la colère, l'amour, la tristesse, la joie. les trais de
+                    leur personnalité sont également amplifiés. Il possèdent également une vitesse surhumaine, une force incroyable, le don d’hypnose et de contrôler certains rêves et tout comme les loups-garous, ils
+                    peuvent se soigner rapidement de toutes blessures.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Wendigos" />
+                            <label class="dib" for="Les Wendigos">
+                <img src="Bestiaire/Wendigo.png" alt="clique moi 1" />
+                <h3>Les Wendigos</h3>
+                <div class="detail">
+                  <p><br><strong>Les Wendigos</strong><br>Les Wendigos sont âgés d'une centaine d'années, ce sont des êtres humains qui ont été contraints de manger de la chair humaine pour survivre à un hiver rigoureux,
+                    en général, il s'agit d'un membre de leur propre tribu qu'ils dévorent.<br><br>Le terme " Wendigo " provient de la mythologie des Amérindiens et signifie "Le Démon qui dévore". Le fait de goûter de la
+                    chair humaine transforme ces hommes en monstre qui deviennent extrêmement rapides et intelligents. Ils peuvent imiter la voix humaine pour attirer leur proie. Les Wendigos acquièrent des capacités
+                    hors normes après s’être nourri et n'ont aucun répit dans leur traque de chaire humaine, ils sont toujours affamés. Ils peuvent hiberner quand bon leur semble (en général durant une vingtaine
+                    d'années) et peuvent se constituer des gardes-mangers encore en vie.<br><br></p>
+                </div>
+              </label>
+                            <input type="radio" name="menu" id="Les Selkies" />
+                            <label class="dib" for="Les Selkies">
+                <img src="Bestiaire/Selkie.png" alt="clique moi 1" />
+                <h3>Les Selkies</h3>
+                <div class="detail">
+                  <p><br><strong>Les Selkies</strong><br>Les selkies sont des créatures imaginaires issues principalement du folklore des Shetland. Elles y sont décrites comme de superbes jeunes filles (ou assez
+                    exceptionnellement comme de beaux jeunes hommes) qui revêtent une peau de phoque, dans le but de se changer en cet animal marin et de plonger dans la mer.<br><br>Une fois sortie de l'eau, ce qu'elle
+                    fait toujours la nuit, parfois le jour en de rares occasions et le plus souvent durant celle de la Saint-Jean, la selkie quitte sa peau et danse à la lueur de la Lune.Si un homme découvre alors son
+                    accessoire ensorcelé et le dérobe, la selkie devra lui obéir tant qu'elle ne l'aura pas retrouvé. Dans cette situation, il arrive parfois que la femme-phoque et l'homme qui la tient sous sa coupe
+                    finissent par s'attacher l'un à l'autre, se marient et aient des enfants, mais si la peau n'est pas détruite par le feu et que la selkie la retrouve, elle plongera dans les profondeurs de l'océan pour
+                    ne jamais revenir, laissant mari et enfants, tout comme certaines sortes de sirènes. Elles sont parfois chargées de protéger les sirènes qui ont 16 ans, l'âge normal pour la transformation. Elles sont
+                    chargées de leur apprendre la vie sous-marine et de les montrer à leurs clans.<br><br></p>
+                </div>
+              </label>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="bottom-divider"></div>
+            </div>
+            <!--End Experience administration-->
+        </div>
+
+        <footer>
+            <!--<span class="corner1">&lt;footer&gt;</span>
 	<span class="corner2">&lt;/footer&gt;</span>-->
-		<p>© 2020. Par Zazeal'Design .</p>
-	</footer>
-	
- <!-- The JavaScript -->  
+            <p>© 2020. Par Zazeal'Design .</p>
+        </footer>
+
+        <!-- The JavaScript -->
         <script type="text/javascript">
-    		$(function() {
-                $('#main-menu li a').bind('click',function(event){
+            $(function() {
+                $('#main-menu li a').bind('click', function(event) {
                     var $anchor = $(this);
-                    
+
                     $('html, body').stop().animate({
                         scrollTop: $($anchor.attr('href')).offset().top
-                    }, 1500,'easeInOutExpo');
+                    }, 1500, 'easeInOutExpo');
 
                     event.preventDefault();
                 });
             });
-			
- 			 $(document).ready(function(){
-    		$("a[rel^='prettyPhoto']").prettyPhoto({social_tools:false, deeplinking: false});
-  			});
 
+            $(document).ready(function() {
+                $("a[rel^='prettyPhoto']").prettyPhoto({
+                    social_tools: false,
+                    deeplinking: false
+                });
+            });
         </script>
-	</div></body> 
+    </div>
+</body>
+
 </html>
