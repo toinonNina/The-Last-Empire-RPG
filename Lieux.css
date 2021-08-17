@@ -1,0 +1,120 @@
+body{
+	background:#333333 url(background.jpg);
+	margin:0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#6a6969;
+}
+h1{font: 400 38px/50px 'Bree Serif', Georgia, serif; color:#6a6969;
+text-align:center;
+border-radius: 30px;
+background-color:#151E35;}
+h2{font: 400 18px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h3{font: 400 14px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+ul{margin:0px; padding:0px;}
+a {text-decoration:none; color:#6a6969;}
+a:hover {color:#979797;}
+a img{border:0px;}
+
+#container{
+	width:950px;
+	margin:0px auto 300px auto;
+	background:url("body-bg.png");
+	overflow:auto;
+	padding-bottom:100px;
+}
+
+
+/****************************************************/
+/* HEADER */
+
+/****************************************************/
+
+
+#menu{
+	width:944px;
+	height:55px;
+	background-color:#222222;
+	padding:0px 43px;
+	position:relative;
+	top:0px;
+	left:47%;
+	margin: 0px 0 0 -455px;
+
+}
+
+#menu #main-menu{float:right; padding-top:25px;}
+#menu #main-menu li{
+	float:left;
+	list-style:none;
+	margin: 0 6px 0 0px;
+	font: 400 16px/20px 'Bree Serif', Georgia, serif;
+}
+
+#menu ul li {
+list-style: none;
+display: inline-block;
+margin : 0px 0px 0px -40px;
+}
+#menu ul li a {
+ color: #6a6969;
+padding:10px;
+text-decoration:none;
+}
+.deroulant1 {
+	font-size: 1.2em;
+}
+.deroulant2 {
+	font-size: 1.2em;
+}
+li a:hover {
+border-bottom:2px #FFF solid;
+}
+#menu ul li ul { display:none; } /* Rend le menu déroulant caché par défaut */
+#menu ul li:hover ul { /* Affiche la dropNav au survol de la souris avec la class .drop */
+z-index:99999;
+display:list-item !important;
+position:absolute;
+margin-top:10px;
+margin-left:50px;	background-color: #222222;
+}
+#menu ul li:hover ul li {
+float:none;
+}
+li > a:after { content: ' »'; } /* Changer ce afin de changer le symbole du menu déroulant */
+li > a:only-child:after { content: ''; }
+
+
+
+
+
+/****************************************************/
+/* EXPERIENCE photo */
+/****************************************************/
+#work{margin:0px 60px; padding-top:5px;}
+#work .content{overflow:auto;}
+#work .work-thumbs li{
+	list-style:none;
+	float:left;
+	margin:0px 15px 15px -10px;
+	padding:0px;
+}
+#work #work-thumbs li.last{margin:0px;}
+
+footer {
+	background-color: #222222;
+	height:20px;
+	clear:both;
+	text-align: center;
+	color:#454444;
+}
+
+/* MISC */
+/****************************************************/
+.top-divider, .bottom-divider{
+	width:100%;
+	height:2px;
+	background:url(Lieux/images/divider.png) repeat-x;
+	clear:both;
+}
+.top-divider{margin-bottom:40px;}
+.bottom-divider{margin-top:40px;}
